@@ -1,0 +1,40 @@
+.Lettuce{
+background-color: #399a28;
+width: 25vw;
+height: 1.2rem;
+border: 1px solid #399a28;
+margin-top: .8rem;
+border-radius: 3rem;
+
+}
+.Bacon{
+    background-color:#bf3b16;
+    width: 23vw;
+    height: 0.8rem;
+    margin-top: .8rem;
+    border: 1px solid #bf3b16;
+}
+.Cheese{
+    background-color: #f2cf06;
+    width: 27vw;
+    height: 1rem;
+    margin-top: .8rem;
+    border: 1px solid #f2cf06;
+
+}
+.Meat{
+    background-color: #7a3307;
+    width: 21vw;
+    height: 1.4rem;
+    margin-top: .8rem;
+    border: 1px solid  #7a3307;
+    border-radius: 3rem;
+  
+}
+.divCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  
+}

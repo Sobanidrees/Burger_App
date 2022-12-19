@@ -1,0 +1,24 @@
+.Parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Main-Cointainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    height: 70vh;
+    overflow-y:auto;
+    width: 35vw;
+}
+
+.p{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+
+
+

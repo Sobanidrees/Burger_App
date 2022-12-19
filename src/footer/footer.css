@@ -1,0 +1,42 @@
+
+.cointainer{
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    
+}
+.button-div{
+    display: flex;
+    gap: 1rem;
+   
+
+}
+.name{
+  
+    font-weight:bolder;
+    width: 5vw;
+    font-size: large;
+}
+.button1{
+background-color: #d39952;
+font-size: 1.2rem;
+padding: .5rem .8rem;
+font-weight: bold;
+cursor: pointer;
+border: 1px solid black;
+}
+.button2
+{
+    background-color: #8f5e1e;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.deactivate
+{
+    cursor:no-drop;
+    background-color: #ac9980;
+}

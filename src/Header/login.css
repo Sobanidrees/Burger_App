@@ -1,0 +1,51 @@
+.COintainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.Form-Cointainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:40vw;
+    box-shadow: 5px black 3px black;
+    gap: 2rem;
+    padding: 2rem;
+    box-shadow: 0 0 1px 1px rgba(0,0, 0, 0.212);
+    margin-top: 3rem;
+  
+}
+.Name{
+width: 32vw;
+border: 1px solid lightgray;
+padding: 0.6rem;
+font-size: 1.2rem;
+}
+.password{
+width: 32vw;
+padding: 0.6rem;
+border: 1px solid lightgray;
+font-size: 1.2rem;
+
+}
+.Submit{
+border: none;
+font-weight: bolder;
+font-size: 1.2rem;
+color: green;
+background-color: white;
+}
+.Login{
+    border: none;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color:  #7a3307;background-color: white;
+
+    
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
