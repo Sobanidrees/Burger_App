@@ -18,6 +18,7 @@
     font-size: large;
     font-weight: bolder;
     background-color: #c7c6c6;
+    cursor:no-drop;
     border: none;
 }
 .price{

@@ -15,7 +15,7 @@ export default function Main() {
   //If Status is true, than button is active other wise, the button is disable
   const [items,setItems] =useState(
     {
-      Lettuce:{item:"Lettuce",Status:false}, 
+      Lettuce:{item:"Lettuce",Status:false},
       Bacon:{item:"Bacon",Status:false},
       Chease:{item:"Cheese",Status:false},
       Meat:{item:"Meat",Status:false}
@@ -157,7 +157,6 @@ export default function Main() {
         Addhandler={moreHandler}
         Lesshandler={lessHandler}
         items={items}
-
         empty={isEmpty}
       />
     </div>

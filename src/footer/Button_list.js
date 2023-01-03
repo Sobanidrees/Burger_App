@@ -5,6 +5,7 @@ import "./Button-list.css";
 export default function Button_list(props) {
   const [totalPrice, settotalPrice] = useState(3.00);
   const itemsArray=Object.entries(props.items);
+  console.log(itemsArray);
 
   const moreHandler = (item) => {
     props.Addhandler(item);
@@ -63,7 +64,7 @@ export default function Button_list(props) {
         })}
       </div>
       <div className="submit-button">
-        <Link to="/login"><button className={props.empty ? "buttonS": "Active"}>SIGN UP TO ORDER</button></Link>
+       {props.empty?<button className={props.empty ? "buttonS": "Active"}>SIGN UP TO ORDER</button> : <Link to="/login"><button className={props.empty ? "buttonS": "Active"}>SIGN UP TO ORDER</button></Link>}
       </div>
     </div>
   );
